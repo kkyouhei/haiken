@@ -1,0 +1,15 @@
+{
+  "name": "haiken_lambda",
+  "version": "1.0.0",
+  "description": "http ping",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/lambda-local -l ./haiken.js -e haiken.js -t 10"
+  },
+  "author": "kkyouhei",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.7.13",
+    "lambda-local": "^1.3.0"
+  }
+}
